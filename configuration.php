@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'pdomysql';
 	public $host = 'localhost';
 	public $user = 'root';
-	public $password = '';
+	public $password = 'edcxswqaz950210';
 	public $db = 'joomla-aleks';
 	public $dbprefix = 'j_';
 	public $live_site = '';
@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'C:\\wamp\\www\\joomla/logs';
-	public $tmp_path = 'C:\\wamp\\www\\joomla/tmp';
+	public $log_path = '/var/www/joomla/logs';
+	public $tmp_path = '/var/www/joomla/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }
